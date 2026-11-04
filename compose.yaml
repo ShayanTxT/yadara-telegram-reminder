@@ -1,0 +1,9 @@
+services:
+  yadara:
+    build: .
+    env_file: .env
+    volumes:
+      - yadara-data:/app/data
+    restart: unless-stopped
+volumes:
+  yadara-data:

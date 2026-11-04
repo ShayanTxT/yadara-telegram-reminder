@@ -1,0 +1,1 @@
+"""Yadara Telegram reminder bot."""
